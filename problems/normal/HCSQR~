@@ -1,0 +1,28 @@
+<h2>Fibbonacci</h2>
+<b>Problem Statement</b><br>
+<p>
+Given N, print the Nth fibonacci number.
+<p>
+
+<br><b>Input Format:</b><br>
+T : testcases <br>
+T lines containing one number N<sub>i</sub> each. <br>
+
+<br><b>Output Format:</b><br>
+T lines containing N<sub>i</sub>th fibonacci number.
+
+<br><b>Constraints</b><br>
+1 &lt= T &lt= 1000<br>
+1 &lt= N<sub>i</sub> &lt= 60<br>
+
+<br><b>Sample Input</b><br>
+3<br>
+1<br>
+2<br>
+3<br>
+
+<br><b>Sample Output</b><br>
+
+0<br>
+1<br>
+1<br>

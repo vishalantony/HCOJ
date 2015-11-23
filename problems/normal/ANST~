@@ -1,0 +1,24 @@
+<h2>Sort it</h2>
+<b>Problem Statement</b><br>
+<p>
+Given a list of numbers. Sort it in ascending order and print it.
+<p>
+<br><b>Input Format:</b><br>
+First line contains number of integers N.<br>
+Next line contains N integers A<sub>i</sub> to be sorted <br><br>
+
+<br><b>Output Format:</b><br>
+Output contains single line of N integers in the sorted order.<br><br>
+
+<br><b>Constraints</b><br>
+0 &lt;= N &lt;= 100000 <br>
+-100000 &lt= A<sub>i</sub> &lt= 100000 <br><br>
+
+<br><b>Sample Input</b><br>
+
+5<br>
+5 3 7 4 2 <br><br>
+
+<br><b>Sample Output</b><br>
+
+2 3 4 5 7<br>

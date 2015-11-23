@@ -1,0 +1,84 @@
+<h2>AP-tuple</h2>
+<h3>Problem Statement</h3>
+
+<p>
+	Given is a list of integers L = {a_1, a_2, ... a_n}. Your task is to find the number of triples (x, y, z) where
+	x = a_i and z = a_j = x+2*d and i &ne; j such that y = a_k = x+d = z-d for non negative integers d, i, k and j.<br>
+	Constraints:<br>
+	1. k may be equal to i or j.<br>
+	2. Numbers in the list L can be repeated.<br>
+	3. (a_i, a_k, a_j) and (a_j, a_k, a_i) will be taken as the same triple.<br>
+	<br>
+	Also find the number of distinct k's.
+</p>
+
+<h3>Input Format:</h3>
+First line contains the number of integers(N) in the list L.<br>
+Then follows N lines having one integer each. (A<sub>i</sub>)<br>
+
+<h3>Output Format:</h3>
+Output contains 2 lines having 1 number each.<br>
+The first line contains the number of distinct k's.<br>
+The second line contains the number of triples.<br>
+
+<h3>Constraints</h3>
+0 &lt;= N<sub>ij</sub> &lt;= 10000 <br>
+A<sub>i</sub> can be stored in a 32 bit integer variable.<br>
+
+<h3>Sample Input 1</h3>
+<pre>
+6
+5 6 1 4 3 2
+</pre>
+
+<h3>Sample Output 1</h3>
+<pre>
+4
+6
+</pre>
+
+<h3>Sample Input 2</h3>
+<pre>
+4
+3 3 4 5
+</pre>
+
+<h3>Sample Output 2</h3>
+<pre>
+3
+4
+</pre>
+
+<h3>Sample Input 3</h3>
+<pre>
+6
+3 7 10 17 22 15
+</pre>
+
+<h3>Sample Output 3</h3>
+<pre>
+1
+1
+</pre>
+
+<h3>Sample Input 4</h3>
+<pre>
+5
+3 8 11 17 30
+</pre>
+
+<h3>Sample Output 4</h3>
+<pre>
+0
+0
+</pre>
+
+<h3>Explanation for sample case 2:</h3>
+<p>
+The tuples are(given are the indices or positions and not the value of the elements):<br>
+(1 1 2)<br>
+(1 2 2)<br>
+(1 3 4)<br>
+(2 3 4)<br>
+And the number of distinct middle elements are 3 (i.e., elements at position 1,2 and 3).<br>
+</p>

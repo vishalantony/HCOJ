@@ -11,6 +11,9 @@ include('includes/global_values.inc.php');
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -25,7 +28,18 @@ include('includes/global_values.inc.php');
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.php">Home</a></li>
+		  <?php 
+			  if(isset($_SESSION['logged']) && $_SESSION['logged'] == 1) 
+			  {
+						echo '<li class="selected"><a href="index.php">Profile</a></li>';
+			  }	
+			  else
+			  {
+				  echo '<li class="selected"><a href="index.php">Home</a></li>';
+			  }
+						
+				
+		  ?>
           <li><a href="contests.php">Contests</a></li>
           <li><a href="problems.php">Problems</a></li>
           <li><a href="contact.php">About & Contact Us</a></li>

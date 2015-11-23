@@ -21,6 +21,9 @@ if($_SESSION['username'] == 'admin') {
   <meta name="keywords" content="programming, competitive programming, uvce, online judge" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
   <script src="javascript/jquery-1.11.3.min.js"></script>
   <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
   <!--<script src="javascript/form-process.js"></script>-->

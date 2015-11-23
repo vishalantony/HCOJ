@@ -15,6 +15,9 @@ include("includes/global_values.inc.php");
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
 </head>
 
 <body>
@@ -56,8 +59,8 @@ include("includes/global_values.inc.php");
 	  
       <div id="content">
         <!-- insert the page content here -->
-        
-        <table cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
+        <div class="tab">
+        <table  cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 		<tr><th>Contest</th><th>Start</th><th>End</th><th>Duration</th></tr><!-- Table Header -->
         
         <?php
@@ -92,7 +95,7 @@ include("includes/global_values.inc.php");
 		mysqli_close($db);
         ?>
         </table>
-    
+		</div>
       </div>
 	  
 	  

@@ -32,7 +32,7 @@ include("includes/global_values.inc.php");
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.php">Home</a></li>
+          <li class="selected"><a href="index.php">Profile</a></li>
           <li><a href="contests.php">Contests</a></li>
           <li><a href="problems.php">Problems</a></li>
           <li><a href="contact.php">About & Contact Us</a></li>
@@ -48,6 +48,7 @@ include("includes/global_values.inc.php");
       <div class="sidebar">
         <!-- insert your sidebar items here -->
 		 <!--  -->
+		
 		  <!-- put clock and date here -->
 		   <!--  -->
 		   <!--  -->
@@ -59,7 +60,7 @@ include("includes/global_values.inc.php");
 	  
       <div id="content">
         <!-- insert the page content here -->
-		
+		<div class="tab">
 		<table cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 			<tr>
 			<th>Problem Code</th>
@@ -108,6 +109,7 @@ include("includes/global_values.inc.php");
 			 </tr> <!-- Darker Table Row -->
 		 
 		</table>
+		</div>
     
       </div>
 	  

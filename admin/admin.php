@@ -19,6 +19,7 @@ include('../includes/config.inc.php');
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
   <link rel="stylesheet" type="text/css" href="../style/style.css" title="style" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
   <script src="../javascript/jquery-1.11.3.min.js"></script>
   <script src="../javascript/admin.js"></script>
   
@@ -69,7 +70,7 @@ include('../includes/config.inc.php');
 				<br>
 				<span id="messages" class="warnings" ></span>
 			</form>
-				<table>
+				<table class="tabsmall">
 						<tr>
 						<th>Contest Code</th>
 						<th>Name</th>

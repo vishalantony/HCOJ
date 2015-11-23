@@ -70,7 +70,7 @@ $targetdate = $endmonth.'/'.$endday.'/'.$endyear.' '.$endhour.':'.$endmin.' '.$p
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.php">Home</a></li>
+          <li class="selected"><a href="index.php">Profile</a></li>
           <li><a href="contests.php">Contests</a></li>
           <li><a href="problems.php">Problems</a></li>
           <li><a href="contact.php">About & Contact Us</a></li>
@@ -168,6 +168,7 @@ CountBack(gsecs);
 			?>
 		</h3>
 		
+	<div class="tab">
 		<table cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 			<tr>
 			<th>Problem Code</th>
@@ -204,6 +205,7 @@ CountBack(gsecs);
 			?>
 		 
 		</table>
+		</div>
     
       </div>
 	  
